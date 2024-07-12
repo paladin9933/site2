@@ -25,9 +25,7 @@ def postsofar(request): #Получение id с формы
     #for i in range(1, 200):
     #    d=response.objects.get(id=i)
     #    dd='key1'+d.key1+'key2'+d.key2+'key3'+d.key3+'key4'+d.key4+'key5'+d.key5+'key6'+d.key6
-    #    #"ID": obj.id,
-   
-        
+    #    #"ID": obj.id,    
     #response = requests.get(url)
     #print(response)
     #
