@@ -17,7 +17,7 @@ class posts(models.Model): #класс с объявлениями
 class modelsEncoder(DjangoJSONEncoder):# Сериализация объекта
     def default(self, obj):
         if isinstance(obj, posts):
-            return {"ID": obj.id,"position":obj.position ,"Avtor":obj.bycreator, "title":obj.title, "views":obj.views}
+            return {"ID": obj.id,"position":obj.position ,"bycreator":obj.bycreator, "title":obj.title, "views":obj.views}
         return super().default(obj)
             
 
